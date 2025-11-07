@@ -17,7 +17,7 @@ while True:
 
     elif choice == "2":
         if not library:
-            print("No books available.\n")
+            print("No books available...\n")
         else:
             for name, info in library.items():
                 print(f"{name} by {info['author']} - {info['quantity']} copies")
