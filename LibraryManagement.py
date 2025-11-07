@@ -9,7 +9,7 @@ while True:
     choice = input("Enter choice: ")
 
     if choice == "1":
-        name = input("Enter book name: ")
+        name = input("Enter Book name: ")
         author = input("Enter author name: ")
         qty = int(input("Enter Quantity: "))
         library[name] = {"author": author, "quantity": qty}
