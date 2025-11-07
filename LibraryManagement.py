@@ -11,7 +11,7 @@ while True:
     if choice == "1":
         name = input("Enter book name: ")
         author = input("Enter author name: ")
-        qty = int(input("Enter quantity: "))
+        qty = int(input("Enter Quantity: "))
         library[name] = {"author": author, "quantity": qty}
         print("Book added!\n")
 
